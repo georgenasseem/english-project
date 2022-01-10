@@ -134,6 +134,7 @@
 
 .sticky .section-hero {
   margin-top: 9.6rem;
+  z-index: 999;
 }
 
 /**************************/
@@ -285,8 +286,13 @@
 }
 
 .step-img {
-  width: 35%;
-  /* z-index: 10; */
+  width: 85%;
+  z-index: 0;
+}
+
+.step-img2 {
+  width: 70%;
+  z-index: 0;
 }
 
 /**************************/
@@ -677,10 +683,12 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 
 .sticky + .content {
   padding-top: 60px;
+  z-index: 999;
 }
 
 .footer-heading {
